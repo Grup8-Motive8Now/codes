@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $mysqli = new mysqli("localhost", "524105","94yyj43x","524105");
+    $mysqli = new mysqli("localhost", "root","","yazilimproje1");
 
     if($mysqli -> connect_errno)
     {
